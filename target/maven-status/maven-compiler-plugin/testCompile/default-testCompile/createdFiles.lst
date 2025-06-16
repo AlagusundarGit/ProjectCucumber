@@ -1,0 +1,7 @@
+Baseclass\CommonActions.class
+stepDefinition\TestRunner.class
+PageObjects\HomePage.class
+stepDefinition\MyAccountProfile2.class
+PageObjects\LoginPage.class
+PageObjects\ProfilePage.class
+stepDefinition\Hooks2.class
