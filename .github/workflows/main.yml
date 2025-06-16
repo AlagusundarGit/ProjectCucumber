@@ -1,0 +1,22 @@
+
+name: Run Script
+
+on: [push]  # Triggers the workflow on every push
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Run Script
+      run: |
+        echo "Running script..."
+        python your_script.py
